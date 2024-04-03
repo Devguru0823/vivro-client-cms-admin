@@ -1,0 +1,45 @@
+#root{
+    .systems{
+        input[type=file]{
+            display: none;
+        }
+        
+        .logo-image:hover{
+            cursor: pointer;
+        }
+    
+        
+    }
+
+    div.select-control{
+        .MuiFormControl-root{
+            label.MuiInputLabel-root.MuiInputLabel-formControl.MuiFormLabel-root.Mui-focused{
+                background: white;
+                padding: 0 3px;
+            }
+
+            label.MuiInputLabel-shrink{
+                background: white;
+                padding: 0 3px;
+            }
+
+            div.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-formControl{
+                height: 48px;
+                >div{
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+.multi-assign-item{
+    span.MuiTypography-root.MuiTypography-body1{
+        font-size: inherit;
+    }
+    
+}
